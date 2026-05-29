@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: pluton
+  docker:
+    compose:
+      enabled: false
+
+mars:
+  enabled:true;
