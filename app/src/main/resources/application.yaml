@@ -14,5 +14,7 @@ spring:
 modules:
   mars:
     enabled: true
+  terre:
+    enabled: true
 
 

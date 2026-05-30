@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan
 @ConditionalOnProperty(
         prefix = TerreProperties.RACINE,
-        name   = "enabled", havingValue = "true", matchIfMissing = true)
+        name   = "enabled", havingValue = "true", matchIfMissing = false)
 public class TerreConfiguration {
 
     @PostConstruct

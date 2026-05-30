@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan
 @ConditionalOnProperty(
         prefix = MarsProperties.RACINE,
-        name   = "enabled", havingValue = "true", matchIfMissing = true)
+        name   = "enabled", havingValue = "true", matchIfMissing = false)
 public class MarsConfiguration {
 
     @PostConstruct

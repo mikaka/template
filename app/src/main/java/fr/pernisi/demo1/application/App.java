@@ -1,4 +1,4 @@
-package fr.pernisi.demo1;
+package fr.pernisi.demo1.application;
 
 import fr.pernisi.demo1.mars.EnableMars;
 import fr.pernisi.demo1.terre.EnableTerre;
