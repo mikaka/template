@@ -19,7 +19,8 @@ public class MarsConfiguration {
 
     @PostConstruct
     public void init() {
-       log.info("Mars module initialized");
+
+        log.info("Mars module initialized");
     }
 
 

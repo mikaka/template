@@ -9,8 +9,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @Slf4j
 @SpringBootApplication
-@EnableMars
-@EnableTerre
 public class App 
 {
 
