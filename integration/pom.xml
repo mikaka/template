@@ -7,9 +7,8 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <artifactId>integration</artifactId>
-    <packaging>jar</packaging>
-    <name>Maven Quick Start Archetype</name>
-    <url>http://maven.apache.org</url>
+    <name>Integration module</name>
+
     <dependencies>
         <dependency>
             <groupId>fr.pernisi.demo1</groupId>
