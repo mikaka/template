@@ -1,6 +1,7 @@
 package fr.pernisi.demo1.terre;
 
 
+import jakarta.annotation.PostConstruct;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.ComponentScan;
@@ -14,5 +15,9 @@ import org.springframework.context.annotation.Configuration;
         name   = "enabled", havingValue = "true", matchIfMissing = true)
 public class TerreConfiguration {
 
+    @PostConstruct
+    public void init() {
+        System.out.println("Terre module initialized");
+    }
 
 }

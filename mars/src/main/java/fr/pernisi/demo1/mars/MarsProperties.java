@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = MarsProperties.RACINE)
 public class MarsProperties {
 
-    public static final String RACINE="mars";
+    public static final String RACINE="modules.mars";
 
     private boolean enabled = true;
 

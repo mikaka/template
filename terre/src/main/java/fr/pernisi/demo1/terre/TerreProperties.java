@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = TerreProperties.RACINE)
 public class TerreProperties {
 
-    public static final String RACINE="terre";
+    public static final String RACINE="modules.terre";
 
     private boolean enabled = true;
 
