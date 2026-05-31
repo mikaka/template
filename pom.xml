@@ -30,6 +30,11 @@
 		<dependencies>
 			<dependency>
 				<groupId>fr.pernisi.demo1</groupId>
+				<artifactId>terre</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>fr.pernisi.demo1</groupId>
 				<artifactId>mars</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
@@ -40,6 +45,7 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+
 
 	<build>
 		<pluginManagement>
@@ -58,6 +64,7 @@
 								<version>1.18.46</version>
 							</path>
 						</annotationProcessorPaths>
+						<skip>true</skip>
 					</configuration>
 				</plugin>
 			</plugins>

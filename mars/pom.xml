@@ -9,6 +9,7 @@
 
     <artifactId>mars</artifactId>
     <name>Mars module</name>
+    <packaging>jar</packaging>
 
     <dependencies>
         <dependency>

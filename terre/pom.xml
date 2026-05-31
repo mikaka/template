@@ -8,6 +8,7 @@
     </parent>
     <artifactId>terre</artifactId>
     <name>terre module</name>
+    <packaging>jar</packaging>
 
     <properties>
         <lombok.version>1.18.46</lombok.version>
